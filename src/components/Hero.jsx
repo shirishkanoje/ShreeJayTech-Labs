@@ -25,8 +25,8 @@ const Hero = () => {
         </h1>
 
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          We create powerful software solutions and provide real-world internship 
-          experiences to help you grow in today’s tech industry.
+         We build powerful software and bridge the gap between talent and companies 
+         through real-world execution.
         </p>
       </div>
 

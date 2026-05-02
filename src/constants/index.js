@@ -1,45 +1,108 @@
-import { 
-  people01, 
-  people02, 
-  people03, 
-  facebook, 
-  instagram, 
-  linkedin, 
-  twitter, 
-  airbnb, 
-  binance, 
-  coinbase, 
-  dropbox, 
-  send, 
-  shield, 
+import {
+  people01,
+  people02,
+  facebook,
+  instagram,
+  linkedin,
+  twitter,
+  airbnb,
+  binance,
+  coinbase,
+  dropbox,
+  send,
+  shield,
   star
 } from "../assets";
 
 
+import project1 from "../assets/project/project1.png";
+import project2 from "../assets/project/project2.png";
+
+
 // 🔹 NAV LINKS
 export const navLinks = [
-  { id: "home", title: "Home" },
-  
+  { id: "home", title: "Home", link: "/" },
+
   {
-    id: "features",
+    id: "career",
     title: "Careers",
-    link: "https://forms.gle/vbWq1vgvvVi5JJMr5", // ✅ Google Form
+    link: "https://forms.gle/vbWq1vgvvVi5JJMr5",
   },
 
-  {
-    id: "product",
-    title: "About",
-  },
+  { id: "about", title: "About", link: "#about" },
 
   {
-    id: "clients",
+    id: "contact",
     title: "Contact",
-    link: "https://wa.me/917820986647?text=Hi%20I%20am%20interested%20in%20ShreeTech%20Labs%20internship", // ✅ WhatsApp
+    link: "https://wa.me/917820986647?text=Hi%20I%20am%20interested%20in%20ShreeTech%20Labs",
+  },
+
+  { id: "team", title: "Team", link: "/team" },
+  { id: "projects", title: "Projects", link: "/projects" },
+];
+
+
+// 🔹 TEAM DATA
+export const teamMembers = [
+  {
+    id: "team-1",
+    name: "Shirish Kanoje",
+    role: "Founder & Java Full Stack Developer",
+    img: people01,
+  },
+  {
+    id: "team-2",
+    name: "--------",
+    role: "Mern Stack Developer",
+   // img: people02,
+  },
+  {
+    id: "team-3",
+    name: "----------",
+    role: "Devops Engineer",
+    //img: people02,
+  },
+  {
+    id: "team-4",
+    name: "----------",
+    role: "Frontend Engineer",
+    //img: people02,
+  },
+  {
+    id: "team-4",
+    name: "----------",
+    role: "Java Backend Engineer",
+    //img: people02,
   },
 ];
 
 
-// 🔹 FEATURES (UNCHANGED)
+// 🔹 PROJECTS DATA (UPDATED WITH IMAGE)
+export const projectsData = [
+    {
+    id: "project-1",
+    company: "ABC Pvt Ltd",
+    project: "Restaurant Menu Website",
+    description:
+      "A restaurant website that displays a complete digital menu along with past menu history. Users can explore dishes, categories, and previous menu versions without ordering functionality.",
+    tech: "Html, Css, Js, Spring Boot, MySQL",
+    link: "https://resoto-5itc.vercel.app/",
+    image: project1,
+  },
+  {
+    id: "project-2",
+    company: "XYZ Startup",
+    project: "Hospital Management System",
+    description:
+      "Patient booking system with admin dashboard and real-time tracking.",
+    tech: "React, Springboot, MySql, Java",
+    link: "https://hospital-reservation-fullstack-syst.vercel.app/",
+    image: project2,  
+  },
+];
+
+
+// 🔹 FEATURES
 export const features = [
   {
     id: "feature-1",
@@ -60,17 +123,17 @@ export const features = [
     icon: send,
     title: "Certification",
     content:
-      "Get verified certificates and build a portfolio that boosts your career.",
+      "Get verified certificates and build a strong portfolio.",
   },
 ];
 
 
-// 🔹 FEEDBACK
-export const feedback = [
+// 🔹 FOUNDER
+export const founder = [
   {
-    id: "feedback-1",
+    id: "founder",
     content:
-      "ShreeTech Labs was created to help students move beyond theory and gain real-world experience through practical learning and live projects.",
+      "ShreeTech Labs bridges the gap between real-world skills and industry needs by connecting talent with companies through practical solutions and live projects.",
     name: "Shirish Kanoje",
     title: "Founder & Developer",
     img: people01,
@@ -80,9 +143,9 @@ export const feedback = [
 
 // 🔹 STATS
 export const stats = [
-  { id: "stats-1", title: "Students Learning", value: "100+" },
-  { id: "stats-2", title: "Projects Built", value: "10+" },
-  { id: "stats-3", title: "Technologies", value: "5+" },
+  { id: "stats-1", title: "People Connected", value: "100+" },
+  { id: "stats-2", title: "Projects Delivered", value: "10+" },
+  { id: "stats-3", title: "Technologies Used", value: "5+" },
 ];
 
 
@@ -91,9 +154,10 @@ export const footerLinks = [
   {
     title: "Company",
     links: [
-      { name: "About Us", link: "#product" }, // scroll
+      { name: "About Us", link: "#about" },
       { name: "Careers", link: "https://forms.gle/vbWq1vgvvVi5JJMr5" },
-      { name: "Contact", link: "https://wa.me/917820986647" },
+      { name: "Team", link: "/team" },
+      { name: "Projects", link: "/projects" },
     ],
   },
   {
@@ -107,11 +171,8 @@ export const footerLinks = [
   {
     title: "Support",
     links: [
-      { name: "Certificate Verification", link: "/verify" }, // ✅ your page
-      {
-        name: "Help",
-        link: "mailto:shirishkanoje9@gmail.com", // ✅ email
-      },
+      { name: "Certificate Verification", link: "/verify" },
+      { name: "Help", link: "mailto:shirishkanoje9@gmail.com" },
       { name: "Terms & Conditions", link: "/terms" },
     ],
   },
@@ -127,7 +188,7 @@ export const socialMedia = [
 ];
 
 
-// 🔹 CLIENTS (UNCHANGED)
+// 🔹 CLIENTS
 export const clients = [
   { id: "client-1", logo: airbnb },
   { id: "client-2", logo: binance },

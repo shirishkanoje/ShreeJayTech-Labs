@@ -23,7 +23,7 @@ const CTA = () => {
           onClick={() => window.open("https://forms.gle/vbWq1vgvvVi5JJMr5", "_blank")}
           className="py-4 px-6 bg-blue-gradient font-poppins font-medium text-[18px] text-primary outline-none rounded-[10px] hover:scale-105 transition duration-300"
         >
-          Apply Now 🚀
+          Apply Now 
         </button>
       </div>
 

@@ -1,9 +1,9 @@
-import Billing from './Billing'
-import Business from './Business'
-import CardDeal from './CardDeal'
-import Clients from './Clients'
+import About from './About'
+import Career from './Career'
+import VerifyCard from './VerifyCard'
+import Contact from './Contact'
 import CTA from './CTA'
-import Feedback from './Feedback'
+import Founder from './Founder'
 import Footer from './Footer'
 import Hero from './Hero'
 import Navbar from './Navbar'
@@ -11,12 +11,12 @@ import Stats from './Stats'
 import Testimonials from './Testimonials'
 
 export {
-    Billing,
-    Business,
-    CardDeal,
-    Clients,
+    About,
+    Career,
+    VerifyCard,
+    Contact,
     CTA,
-    Feedback,
+    Founder,
     Footer,
     Hero,
     Navbar,
