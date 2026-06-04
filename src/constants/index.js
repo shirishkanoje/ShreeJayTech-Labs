@@ -52,27 +52,21 @@ export const teamMembers = [
   },
   {
     id: "team-2",
-    name: "--------",
-    role: "Mern Stack Developer",
-   // img: people02,
+    name: "Sunny Bhujbal",
+    role: "Backend Developer",
+    img: people03,
   },
   {
     id: "team-3",
-    name: "----------",
-    role: "Devops Engineer",
-    //img: people02,
+    name: "Rohan Gore",
+    role: "Frontend Developer",
+    img: people04,
   },
   {
     id: "team-4",
-    name: "----------",
+    name: "Laxman Ghodke",
     role: "Frontend Engineer",
-    //img: people02,
-  },
-  {
-    id: "team-4",
-    name: "----------",
-    role: "Java Backend Engineer",
-    //img: people02,
+    img: people02,
   },
 ];
 
