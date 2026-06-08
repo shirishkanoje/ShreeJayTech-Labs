@@ -85,15 +85,15 @@ export const projectsData = [
     link: "https://resoto-5itc.vercel.app/",
     image: project1,
   },
-  {
+    {
     id: "project-2",
-    company: "XYZ Startup",
-    project: "Hospital Management System",
+    company: "ShreeJay Tech Labs",
+    project: "SyncBeat",
     description:
-      "Patient booking system with admin dashboard and real-time tracking.",
-    tech: "React, Springboot, MySql, Java",
-    link: "https://hospital-reservation-fullstack-syst.vercel.app/",
-    image: project2,  
+      "Real-time music synchronization and collaborative whiteboard platform with room-based watch parties, YouTube integration, shared notes, and mobile support.",
+    tech: "React, Firebase, YouTube API, Firestore, Realtime Database",
+    link: "https://syncbeat-music.vercel.app/",
+    image: project2,
   },
 ];
 
