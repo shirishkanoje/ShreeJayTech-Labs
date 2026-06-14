@@ -177,10 +177,10 @@ export const footerLinks = [
 
 // 🔹 SOCIAL MEDIA
 export const socialMedia = [
-  { id: "social-media-1", icon: instagram, link: "#" },
-  { id: "social-media-2", icon: facebook, link: "#" },
-  { id: "social-media-3", icon: twitter, link: "#" },
-  { id: "social-media-4", icon: linkedin, link: "#" },
+  // { id: "social-media-1", icon: instagram, link: "#" },
+  // { id: "social-media-2", icon: facebook, link: "#" },
+  // { id: "social-media-3", icon: twitter, link: "#" },
+  { id: "social-media-4", icon: linkedin, link: "https://www.linkedin.com/company/shreejaytechlabs" },
 ];
 
 
